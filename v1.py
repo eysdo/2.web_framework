@@ -15,7 +15,7 @@ def appication(environ:dict,start_response):
 
 def main():
     ip = '127.0.0.1'
-    port = 9999
+    port = 9998
     server = make_server(ip,port,appication)
     server.serve_forever()
     server.server_close()
